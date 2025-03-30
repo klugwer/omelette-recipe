@@ -1,0 +1,173 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+
+@font-face{
+    font-family:'Outfit';
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf)
+}
+
+@font-face{
+    font-family:'Young Serif';
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf)
+}
+
+.recipe-card {
+    max-width: 750px;
+    width: 100%;
+    padding: 40px;
+    margin: 60px auto;
+    border-radius: 32px;
+    background-color: rgb(255, 255, 255);
+
+}
+.recipe-img {
+    width: 100%;
+    border-radius: 16px;
+    display: block;
+    margin: 0 auto;
+}
+.recipe-title {
+    font-size: 45px;
+    font-weight: 400;
+    font-family: 'Young Serif';
+    color: hsl(24, 5%, 18%);
+    margin-bottom:0px;
+}
+
+.description{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Outfit';
+    color:hsl(30, 10%, 34%);
+    margin-top: 4px;
+}
+
+.prep-time{
+    background-color: hsl(330, 100%, 98%);
+    padding: 4px 25px;
+}
+
+.prep-time ul{
+    list-style-position: inside;
+    padding-left: 0%;
+    padding-right: 0%;
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color:hsl(30, 10%, 34%);
+}
+
+h2{
+    color: hsl(332, 51%, 32%);
+    font-family: 'Outfit';
+    font-weight: 600;
+}
+
+h3{
+    color: hsl(14, 45%, 36%);
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Young Serif';
+    margin-bottom: 8px;
+}
+
+.Ingredients ul{
+    list-style: none;
+    padding-left: 0%;
+    margin: 0%;
+}
+
+.Ingredients li {
+    position: relative;
+    padding-left: 20px;
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color:hsl(30, 10%, 34%);
+}
+
+.Ingredients li::before{
+    content: '•';
+    padding-right: 15px;
+    font-size: 25px;
+    position: absolute;
+    left: 0px;
+    top: 2px;
+    color: hsl(14, 45%, 36%);
+    padding-left: 0%;
+
+}
+
+.Instructions ol{
+    padding-left: 20px;
+    margin: 0%;
+}
+
+.Instructions li {
+    position: relative;
+    padding-left: 20px;
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color:hsl(30, 10%, 34%);
+}
+
+.Instructions li::marker {
+    font-size: 18px;
+    color: hsl(14, 45%, 36%);
+    font-family: 'Outfit';
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.section-divider{
+    border: none;
+    height: 2px;
+    background-color: hsl(30, 18%, 87%);
+    margin-top: 35px;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Outfit';
+    color:hsl(30, 10%, 34%);
+    margin-top: 4px;
+}
+
+table{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Outfit';
+    color:hsl(30, 10%, 34%);
+    margin-top: 4px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.highlights{
+    font-size: 18px;
+    color: hsl(14, 45%, 36%);
+    font-family: 'Outfit';
+    font-weight: 600;
+}
+
+td{
+    padding: 14px;
+}
+
+td:first-child{
+    width: 300px;
+}
+tr:not(:last-child) td{
+    border-bottom: 1px  solid hsl(30, 18%, 87%);
+}
+
+.attribution{
+    margin-top: 32px;
+    color:hsl(30, 10%, 34%);
+}
